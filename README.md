@@ -7,7 +7,7 @@ var c = document.getElementById("stop-watch");
 
 cTimer = new Stopwatch(c, {delay: 100}, function(option){  
 
-  console.log('option', option)  
+   console.log('option', option)  
   
 });  
 
