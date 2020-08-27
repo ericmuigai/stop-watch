@@ -1,6 +1,6 @@
 # stop-watch
 Simple javascript stop watch with start/pause/stop
-
+https://codepen.io/emuigai/pen/MWymEpK?editors=1111
 
 ```
 var c = document.getElementById("stop-watch");  
