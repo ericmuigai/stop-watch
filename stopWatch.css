@@ -1,0 +1,32 @@
+/******************* Stop Watch */
+#stop-watch {
+  background: orange;
+  position: absolute;
+  top: 120px;
+  right: 30px;
+  z-index: 999;
+  color: #fff;
+  /*padding: 5px;*/
+  font-size: 22px;
+  display: flex;
+  padding-right: 10px;
+}
+
+#stop-watch .timer {
+  background: orange;
+  width: auto;
+  padding-left: 5px;
+  top: 50%;
+}
+
+#stop-watch .play-pause,
+#stop-watch .stop-watch,
+#stop-watch .reset {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.stop-watch-item {
+  margin-left: 10px;
+}
+/******************* End Stop Watch */
