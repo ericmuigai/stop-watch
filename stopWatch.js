@@ -121,6 +121,13 @@ var Stopwatch = function(elem, options, callback = function(c){
     return d;
   }
 
+
+  function stop() {
+    if (interval) {
+      clearInterval(interval);
+      interval = null;
+    }
+  }
   // public API
   this.start  = start;
   this.stop   = stop;
